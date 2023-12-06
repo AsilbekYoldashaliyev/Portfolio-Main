@@ -4,6 +4,9 @@ import { MdOutlineFacebook } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import { GoProjectRoadmap } from "react-icons/go";
+import { CgIfDesign } from "react-icons/cg";
+import { HiCubeTransparent } from "react-icons/hi2";
 import img1 from "./assets/man.png";
 
 function App() {
@@ -80,6 +83,71 @@ function App() {
             <img src={img1} alt="man picture" />
           </div>
         </main>
+        <section className="about">
+          <div className="about-title">
+            <h1>About Me</h1>
+            <div className="line">
+              <hr />
+            </div>
+          </div>
+          <div className="about-info">
+            <div className="year">
+              <h1>3+</h1>
+              <p>
+                Years <br />
+                Working <br /> Experiance
+              </p>
+            </div>
+            <div className="info-year">
+              <div className="info-text">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Quibusdam sequi, dignissimos ratione quod reprehenderit culpa
+                  voluptatibus cumque eius nemo, neque aspernatur quia molestiae
+                  possimus nesciunt magnam placeat ducimus dolore hic doloremque
+                  tempora!
+                </p>
+                <h4 className="email">
+                  <a className="email" href="yoldashaliyev0303@gmail.com">
+                    yoldashaliyev0303@gmail.com
+                  </a>
+                </h4>
+              </div>
+              <div className="info-box">
+                <div className="boxes">
+                  <div className="project-icon">
+                    <GoProjectRoadmap className="roadmap" />
+                  </div>
+                  <h2>Product Designer</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti voluptates provident nesciunt? Aperiam illo minima
+                  </p>
+                </div>
+                <div className="boxes-center">
+                  <div className="project-icon">
+                    <CgIfDesign className="cgif" />
+                  </div>
+                  <h2>UiUX Designer</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti voluptates provident nesciunt? Aperiam illo minima
+                  </p>
+                </div>
+                <div className="boxes-center">
+                  <div className="project-icon">
+                    <HiCubeTransparent className="cube" />
+                  </div>
+                  <h2>Interactive Designer</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti voluptates provident nesciunt? Aperiam illo minima
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );
