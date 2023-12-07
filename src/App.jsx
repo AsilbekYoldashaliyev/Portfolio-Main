@@ -7,7 +7,18 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { GoProjectRoadmap } from "react-icons/go";
 import { CgIfDesign } from "react-icons/cg";
 import { HiCubeTransparent } from "react-icons/hi2";
+import { BiAlarm } from "react-icons/bi";
+import { BsPatchCheck } from "react-icons/bs";
+import { FaArrowTrendUp } from "react-icons/fa6";
 import img1 from "./assets/man.png";
+import img2 from "./assets/images/img2.webp";
+import img3 from "./assets/images/img3.webp";
+import img4 from "./assets/images/img4.webp";
+import img5 from "./assets/images/img5.webp";
+import img6 from "./assets/images/img6.webp";
+import img7 from "./assets/images/img7.webp";
+import img8 from "./assets/images/img8.webp";
+import img9 from "./assets/images/img9.webp";
 
 function App() {
   return (
@@ -24,7 +35,11 @@ function App() {
           <div className="sections">
             <ul>
               <li>
-                <a href="#Home">Home</a>
+                <a href="#Home">
+                  <a href="Home" id="Home">
+                    Home
+                  </a>{" "}
+                </a>
               </li>
               <li>
                 <a href="#About">Abaut me</a>
@@ -82,10 +97,14 @@ function App() {
           <div className="img-title">
             <img src={img1} alt="man picture" />
           </div>
-        </main>
-        <section className="about">
+        </main >
+        <section className="about" id="About" >
           <div className="about-title">
-            <h1>About Me</h1>
+            <h1>
+              <a href="#About"  >
+                About Me
+              </a>
+            </h1>
             <div className="line">
               <hr />
             </div>
@@ -143,6 +162,177 @@ function App() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Corrupti voluptates provident nesciunt? Aperiam illo minima
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="portfolio">
+          <div className="experiance-work">
+            <div className="time">
+              <p>
+                <BiAlarm className="alarm" />
+              </p>
+              <p>In Time Projects</p>
+            </div>
+            <div className="statistic">
+              <div className="number">
+                <h1>3+</h1>
+                <p>Years of Experiance</p>
+              </div>
+              <div className="number">
+                <h1 id="Portfolio">50+</h1>
+                <p>Projects Complited</p>
+              </div>
+              <div className="number">
+                <h1>30+</h1>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+            <div className="done-pct">
+              <p>
+                <BsPatchCheck className="alarm" />
+              </p>
+              <p>Project Done </p>
+            </div>
+          </div>
+          <div className="portfolio-title">
+            <h1>
+              <a href="#Portfolio">Portfolio</a>
+            </h1>
+
+            <div className="line">
+              <hr />
+            </div>
+          </div>
+          <div className="info-portfolio">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
+              dolores neque alias consectetur nostrum sapiente dolore dicta,
+              illum ducimus perspiciatis.
+            </p>
+          </div>
+          <ul className="designs">
+            <li>All</li>
+            <li>Web Design</li>
+            <li>Mobile App</li>
+            <li>Dashboard</li>
+            <li>Branding</li>
+            <li>UI Kids</li>
+          </ul>
+          <div className="images-prj">
+            {" "}
+            <div className="double">
+              <div className="img-flex">
+                <div className="img">
+                  <img src={img4} alt="" />
+                </div>
+                <div className="img-info">
+                  <h3>VPN App UI Design</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+                <div className="arrow-icon">
+                  <FaArrowTrendUp />
+                </div>
+              </div>
+              <div className="img-flex"></div>
+
+              <div className="img">
+                <img src={img5} alt="" />
+              </div>
+              <div className="img-info">
+                <h3>VPN App UI Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+              <div className="arrow-icon">
+                <FaArrowTrendUp />
+              </div>
+            </div>
+            <div className="triple">
+              <div className="img-flex">
+                <div className="img">
+                  <img src={img2} alt="" />
+                </div>
+                <div className="img-info">
+                  <h3>VPN App UI Design</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+              <div className="img-flex">
+                <div className="img">
+                  <img src={img9} alt="" />
+                </div>
+                <div className="img-info">
+                  <h3>VPN App UI Design</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+                <div className="arrow-icon">
+                  <FaArrowTrendUp />
+                </div>
+              </div>
+              <div className="img-flex">
+                <div className="img">
+                  <img src={img3} alt="" />
+                </div>
+                <div className="img-info">
+                  <h3>VPN App UI Design</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+                <div className="arrow-icon">
+                  <FaArrowTrendUp />
+                </div>
+              </div>
+            </div>
+            <div className="triple">
+              {" "}
+              <div className="img-flex">
+                <div className="img">
+                  <img src={img6} alt="" />
+                </div>
+                <div className="img-info">
+                  <h3>VPN App UI Design</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+                <div className="arrow-icon">
+                  <FaArrowTrendUp />
+                </div>
+              </div>
+              <div className="img-flex">
+                <div className="img">
+                  <img src={img7} alt="" />
+                </div>
+                <div className="img-info">
+                  <h3>VPN App UI Design</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+                <div className="arrow-icon">
+                  <FaArrowTrendUp />
+                </div>
+              </div>
+              <div className="img-flex">
+                <div className="img">
+                  <img src={img8} alt="" />
+                </div>
+                <div className="img-info">
+                  <h3>VPN App UI Design</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+                <div className="arrow-icon">
+                  <FaArrowTrendUp />
                 </div>
               </div>
             </div>

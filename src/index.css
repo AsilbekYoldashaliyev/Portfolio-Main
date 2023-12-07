@@ -18,6 +18,7 @@ html {
   width: 100vw;
   height: 100vh;
   font-family: sans-serif;
+  position: relative;
 }
 
 .container {
@@ -28,8 +29,10 @@ html {
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  background-color: rgb(17, 15, 23);
+  gap: 40rem;
   padding: 2rem;
+  position: fixed;
 }
 
 .logo {
@@ -87,7 +90,7 @@ main {
   align-items: center;
   justify-content: center;
   padding-top: 2rem;
-  height: 83vh;
+  height: 100vh;
 }
 
 .title {
@@ -178,7 +181,7 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 4rem 0 5rem;
+  padding: 10rem 0 5rem;
   background-color: rgb(17, 15, 23);
 }
 
@@ -285,4 +288,88 @@ hr {
 
 .cube {
   font-size: 3rem;
+}
+
+/* /////////// Portfolio ////////////////// */
+
+.portfolio {
+  padding: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.experiance-work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.alarm {
+  font-size: 2.6rem;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+
+.statistic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.number {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.number h1 {
+  font-size: 4.6rem;
+  width: 15rem;
+  gap: 2rem;
+  text-align: center;
+}
+
+.done-pct {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.portfolio-title {
+  color: aliceblue;
+  font-size: 2rem;
+  padding-top: 5rem;
+}
+
+.info-portfolio {
+  text-align: center;
+  width: 40rem;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+
+.designs {
+  padding: 2.3rem;
+}
+
+.images-prj {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
 }
