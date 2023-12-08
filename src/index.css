@@ -13,39 +13,39 @@ html {
 }
 
 #root {
-  background-color: #0d0d0d;
-  /* background-color: rgb(76, 155, 225); */
   width: 100vw;
-  height: 100vh;
-  font-family: sans-serif;
+  background-color: #0d0d0d;
   position: relative;
+  font-family: sans-serif;
 }
 
 .container {
   width: 100vw;
-  height: 100vh;
 }
 
 nav {
+  width: 100%;
+
+  background-color: rgb(17, 15, 23);
+
   display: flex;
   align-items: center;
-  background-color: rgb(17, 15, 23);
-  gap: 40rem;
+  justify-content: space-between;
+
   padding: 2rem;
+
   position: fixed;
 }
 
 .logo {
   color: aliceblue;
-  font-size: 3rem;
-  height: 6.5rem;
-  width: 9rem;
+  font-size: 3.2rem;
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.title-logo {
+.logo_title {
   line-height: 3.5rem;
   background: #3119cf;
   background: -webkit-linear-gradient(to right, #3119cf 0%, #81a1eb 100%);
@@ -53,15 +53,20 @@ nav {
   background: linear-gradient(to right, #3119cf 0%, #81a1eb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
+}
+
+.logo_img {
+  height: 6rem;
 }
 
 .logo img {
   height: 100%;
   width: 100%;
+  object-fit: contain;
 }
 
-ul {
+.nav_list {
   display: flex;
   gap: 3rem;
   font-size: 1.5rem;
@@ -70,7 +75,6 @@ ul {
 
 a {
   text-decoration: none;
-
   color: aqua;
 }
 
@@ -86,16 +90,16 @@ a {
 /* //////////////////////////////  MAIN //////////////////////////// */
 
 main {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 2rem;
-  height: 100vh;
 }
 
-.title {
+.main_title {
   width: 50%;
-  padding-left: 4rem;
 }
 
 .me {
@@ -170,18 +174,25 @@ main {
   color: rgb(215, 216, 216);
 }
 
-.img-title {
-  width: 45%;
+.main_img {
+  width: 30%;
+}
+
+.main_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* ///////////////////// About Me ////////////////////// */
 
 .about {
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 10rem 0 5rem;
   background-color: rgb(17, 15, 23);
 }
 
@@ -293,6 +304,7 @@ hr {
 /* /////////// Portfolio ////////////////// */
 
 .portfolio {
+  width: 100%;
   padding: 8rem;
   display: flex;
   align-items: center;
