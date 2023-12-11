@@ -53,7 +53,7 @@ nav {
   background: linear-gradient(to right, #3119cf 0%, #81a1eb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .logo_img {
@@ -194,6 +194,7 @@ main {
   justify-content: center;
   flex-direction: column;
   background-color: rgb(17, 15, 23);
+  padding: 12rem 0 2rem 0;
 }
 
 .about-title {
@@ -310,6 +311,7 @@ hr {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  color: #c6c5ce;
 }
 
 .experiance-work {
@@ -376,7 +378,17 @@ hr {
 }
 
 .designs {
-  padding: 2.3rem;
+  padding: 2.4rem;
+  padding-left: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  font-size: 1.5rem;
+}
+
+.designs li {
+  list-style: none;
 }
 
 .images-prj {
@@ -384,4 +396,54 @@ hr {
   align-items: center;
   justify-content: center;
   gap: 1.2rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+.double {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 95vh;
+  background-color: #81a1eb;
+  gap: 1rem;
+  width: 25%;
+}
+
+.img-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img-column {
+  background-color: #e3e3e3;
+  width: 25rem;
+  height: 27rem;
+}
+
+.triple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 95vh;
+  background-color: #81a1eb;
+  gap: 1rem;
+  width: 25%;
+
+}
+
+.mini-img {
+  background-color: #e3e3e3;
+  width: 25rem;
+  height: 11.7rem;
+}
+
+.column {
+  background-color: #e3e3e3;
+  width: 25rem;
+  height: 25.7rem;
 }
