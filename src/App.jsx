@@ -180,7 +180,7 @@ function App() {
               <p>Years of Experiance</p>
             </div>
             <div className="number">
-              <h1 id="Portfolio">50+</h1>
+              <h1>50+</h1>
               <p>Projects Complited</p>
             </div>
             <div className="number">
@@ -195,6 +195,7 @@ function App() {
             <p>Project Done </p>
           </div>
         </div>
+        <div className="invisiable" id="Portfolio"></div>
         <div className="portfolio-title">
           <h1>
             <a href="#Portfolio">Portfolio</a>
@@ -224,61 +225,80 @@ function App() {
           <div className="double">
             <div className="img-flex">
               <div className="img-column">
-                {/* <img src={img4} alt='' /> */}
+                <img src={img4} alt="" />
               </div>
-              <div className="img-info">
-                <h3>VPN App UI Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-              <div className="arrow-icon">
-                <FaArrowTrendUp />
+              <div className="row">
+                <div className="img-info">
+                  <h3>VPN App UI Design</h3>
+                  <p>Lorem ipsum dolor sit amet </p>
+                </div>
+                <div className="arrow-icon">
+                  <FaArrowTrendUp />
+                </div>
               </div>
             </div>
             <div className="img-flex">
               <div className="img-column">
-                {/* <img src={img5} alt='' /> */}
+                <img src={img5} alt="" />
               </div>
-              <div className="img-info">
-                <h3>VPN App UI Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-              <div className="arrow-icon">
-                <FaArrowTrendUp />
+              <div className="row">
+                {" "}
+                <div className="img-info">
+                  <h3>VPN App UI Design</h3>
+                  <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div className="arrow-icon">
+                  <FaArrowTrendUp />
+                </div>
               </div>
             </div>
           </div>
           <div className="triple">
             <div className="img-flex">
               <div className="mini-img">
-                {/* <img src={img2} alt="" /> */}
+                <img src={img2} alt="" />
               </div>
-              <div className="img-info">
-                <h3>VPN App UI Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div className="row">
+                {" "}
+                <div className="img-info">
+                  <h3>VPN App UI Design</h3>
+                  <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div className="arrow-icon">
+                  <FaArrowTrendUp />
+                </div>
               </div>
             </div>
             <div className="img-flex">
               <div className="img-column">
-                {/* <img src={img9} alt="" /> */}
+                <img src={img9} alt="" />
               </div>
-              <div className="img-info">
-                <h3>VPN App UI Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-              <div className="arrow-icon">
-                <FaArrowTrendUp />
+              <div className="row">
+                {" "}
+                <div className="img-info">
+                  <h3>VPN App UI Design</h3>
+                  <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div className="arrow-icon">
+                  <FaArrowTrendUp />
+                </div>
               </div>
             </div>
             <div className="img-flex">
               <div className="mini-img">
-                {/* <img src={img3} alt="" /> */}
+                <img src={img3} alt="" />
               </div>
-              <div className="img-info">
-                <h3>VPN App UI Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-              <div className="arrow-icon">
-                <FaArrowTrendUp />
+              <div className="row">
+                {" "}
+                <div className="img-info">
+                  <h3>VPN App UI Design</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet 
+                  </p>
+                </div>
+                <div className="arrow-icon">
+                  <FaArrowTrendUp />
+                </div>
               </div>
             </div>
           </div>
@@ -286,38 +306,53 @@ function App() {
             {" "}
             <div className="img-flex">
               <div className="mini-img">
-                {/* <img src={img6} alt="" /> */}
+                <img src={img6} alt="" />
               </div>
-              <div className="img-info">
-                <h3>VPN App UI Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-              <div className="arrow-icon">
-                <FaArrowTrendUp />
+              <div className="row">
+                {" "}
+                <div className="img-info">
+                  <h3>VPN App UI Design</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet 
+                  </p>
+                </div>
+                <div className="arrow-icon">
+                  <FaArrowTrendUp />
+                </div>
               </div>
             </div>
             <div className="img-flex">
               <div className="mini-img">
-                {/* <img src={img7} alt="" /> */}
+                <img src={img7} alt="" />
               </div>
-              <div className="img-info">
-                <h3>VPN App UI Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-              <div className="arrow-icon">
-                <FaArrowTrendUp />
+              <div className="row">
+                {" "}
+                <div className="img-info">
+                  <h3>VPN App UI Design</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet 
+                  </p>
+                </div>
+                <div className="arrow-icon">
+                  <FaArrowTrendUp />
+                </div>
               </div>
             </div>
             <div className="img-flex">
               <div className="column">
-                {/* <img src={img8} alt="" /> */}
+                <img src={img8} alt="" />
               </div>
-              <div className="img-info">
-                <h3>VPN App UI Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-              <div className="arrow-icon">
-                <FaArrowTrendUp />
+              <div className="row">
+                {" "}
+                <div className="img-info">
+                  <h3>VPN App UI Design</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet 
+                  </p>
+                </div>
+                <div className="arrow-icon">
+                  <FaArrowTrendUp />
+                </div>
               </div>
             </div>
           </div>

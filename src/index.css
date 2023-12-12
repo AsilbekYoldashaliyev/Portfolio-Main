@@ -32,21 +32,22 @@ nav {
   align-items: center;
   justify-content: space-between;
 
-  padding: 2rem;
-
+ padding-left: 2rem;
+ padding-right: 4rem;
+padding-top: 0.4rem;
   position: fixed;
 }
 
 .logo {
   color: aliceblue;
-  font-size: 3.2rem;
+  font-size: 2.4rem;
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
 .logo_title {
-  line-height: 3.5rem;
+  line-height: 2.5rem;
   background: #3119cf;
   background: -webkit-linear-gradient(to right, #3119cf 0%, #81a1eb 100%);
   background: -moz-linear-gradient(to right, #3119cf 0%, #81a1eb 100%);
@@ -79,12 +80,13 @@ a {
 }
 
 .btn-hire button {
-  padding: 1rem 1.2rem;
+  padding: 1rem 2rem;
   border-radius: 0.6rem;
   background-color: rgb(62, 62, 225);
   color: white;
   border: none;
   font-weight: 600;
+  cursor: pointer;
 }
 
 /* //////////////////////////////  MAIN //////////////////////////// */
@@ -95,7 +97,7 @@ main {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding-left: 4rem;
 }
 
 .main_title {
@@ -103,7 +105,7 @@ main {
 }
 
 .me {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   display: flex;
   flex-direction: column;
 }
@@ -111,7 +113,7 @@ main {
 .hello {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
   color: #adacb5;
 }
 
@@ -122,17 +124,18 @@ main {
 
 .designer {
   color: rgb(191, 194, 197);
+  
 }
 
 .info {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   width: 50rem;
   padding-top: 1rem;
   color: rgb(169, 172, 173);
 }
 
 .social {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   display: flex;
   align-items: center;
   color: #aaaab0f7;
@@ -145,8 +148,8 @@ main {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  font-size: 2.8rem;
-  color: rgb(101, 104, 104);
+  font-size: 3.1rem;
+  color: rgb(85, 133, 133);
 }
 
 .btn-meeting {
@@ -194,21 +197,21 @@ main {
   justify-content: center;
   flex-direction: column;
   background-color: rgb(17, 15, 23);
-  padding: 12rem 0 2rem 0;
+  padding: 8.5rem 0 2rem 0;
 }
 
 .about-title {
   color: aliceblue;
-  font-size: 2rem;
+  font-size: 2.3rem;
   padding-bottom: 2.4rem;
 }
 
 .line {
-  padding: 0.2rem 2rem;
+  padding: 0.3rem 1.8rem;
 }
 
 hr {
-  border-top: 0.6rem solid;
+  border-top: 0.8rem solid;
   color: rgb(12, 75, 223);
   border-radius: 1rem;
 }
@@ -239,6 +242,8 @@ hr {
   color: #606061;
 }
 
+
+
 .email {
   color: #2e14d1;
   padding-top: 1.6rem;
@@ -249,7 +254,7 @@ hr {
 }
 
 .info-text {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   width: 60rem;
 }
 
@@ -292,14 +297,17 @@ hr {
 
 .roadmap {
   font-size: 3rem;
+  color: #14d1a8;
 }
 
 .cgif {
   font-size: 3rem;
+  color: #2e14d1;
 }
 
 .cube {
   font-size: 3rem;
+  color: rgb(203, 34, 34);
 }
 
 /* /////////// Portfolio ////////////////// */
@@ -367,7 +375,7 @@ hr {
 .portfolio-title {
   color: aliceblue;
   font-size: 2rem;
-  padding-top: 5rem;
+  padding-top: 10rem;
 }
 
 .info-portfolio {
@@ -395,7 +403,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.2rem;
+
   width: 100vw;
   height: 100vh;
 }
@@ -406,9 +414,9 @@ hr {
   justify-content: center;
   flex-direction: column;
   height: 95vh;
-  background-color: #81a1eb;
-  gap: 1rem;
-  width: 25%;
+ 
+  gap: 2rem;
+  width: 18%;
 }
 
 .img-flex {
@@ -416,6 +424,7 @@ hr {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 99%;
 }
 
 .img-column {
@@ -424,15 +433,28 @@ hr {
   height: 27rem;
 }
 
+.img-column img {
+ width: 100%;
+ height: 100%;
+}
+
+.mini-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.column img {
+  width: 100%;
+  height: 100%;
+}
+
 .triple {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 95vh;
-  background-color: #81a1eb;
-  gap: 1rem;
-  width: 25%;
+  gap: 2rem;
+  width: 18%;
 
 }
 
@@ -446,4 +468,30 @@ hr {
   background-color: #e3e3e3;
   width: 25rem;
   height: 25.7rem;
+}
+
+.row {
+  display: flex;
+ gap: 3rem;
+  width: 100%;
+}
+
+.arrow-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background-color: #2e14d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: #ffff;
+}
+
+.img-info  h3 {
+font-size: 1.7rem;
+}
+
+.img-info p{
+  font-size: 1.2rem;
 }
