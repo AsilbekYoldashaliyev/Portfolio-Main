@@ -32,9 +32,9 @@ nav {
   align-items: center;
   justify-content: space-between;
 
- padding-left: 2rem;
- padding-right: 4rem;
-padding-top: 0.4rem;
+  padding-left: 2rem;
+  padding-right: 4rem;
+  padding-top: 0.4rem;
   position: fixed;
 }
 
@@ -124,7 +124,6 @@ main {
 
 .designer {
   color: rgb(191, 194, 197);
-  
 }
 
 .info {
@@ -241,8 +240,6 @@ hr {
   width: 70vw;
   color: #606061;
 }
-
-
 
 .email {
   color: #2e14d1;
@@ -374,7 +371,7 @@ hr {
 
 .portfolio-title {
   color: aliceblue;
-  font-size: 2rem;
+  font-size: 2.4rem;
   padding-top: 10rem;
 }
 
@@ -413,9 +410,7 @@ hr {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 95vh;
- 
-  gap: 2rem;
+  gap: 3rem;
   width: 18%;
 }
 
@@ -434,8 +429,8 @@ hr {
 }
 
 .img-column img {
- width: 100%;
- height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .mini-img img {
@@ -453,9 +448,17 @@ hr {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.2rem;
   width: 18%;
+}
 
+.triple-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 18%;
 }
 
 .mini-img {
@@ -472,7 +475,7 @@ hr {
 
 .row {
   display: flex;
- gap: 3rem;
+  gap: 3rem;
   width: 100%;
 }
 
@@ -488,10 +491,53 @@ hr {
   color: #ffff;
 }
 
-.img-info  h3 {
-font-size: 1.7rem;
+.img-info h3 {
+  font-size: 1.7rem;
 }
 
-.img-info p{
+.img-info p {
   font-size: 1.2rem;
+}
+
+/* ////// Contact //////////////// */
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+  flex-direction: column;
+  background-color: #81a1eb;
+}
+
+.contact-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85vw;
+  height: 80vh;
+  background-color: #adacb5;
+}
+
+.contact-info {
+  display: flex;
+  width: 40%;
+  height: 90%;
+  background-color: #2e14d1;
+  flex-direction: column;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 90%;
+  background-color: #6fad3c;
+}
+
+.contact-title {
+  font-size: 2.4rem;
+  width: 20rem;
 }

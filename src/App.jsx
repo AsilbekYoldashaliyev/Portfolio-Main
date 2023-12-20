@@ -4,12 +4,17 @@ import { MdOutlineFacebook } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 import { GoProjectRoadmap } from "react-icons/go";
 import { CgIfDesign } from "react-icons/cg";
 import { HiCubeTransparent } from "react-icons/hi2";
 import { BiAlarm } from "react-icons/bi";
 import { BsPatchCheck } from "react-icons/bs";
 import { FaArrowTrendUp } from "react-icons/fa6";
+import { TiMessages } from "react-icons/ti";
+import { IoIosPhonePortrait } from "react-icons/io";
+import { IoLocationSharp } from "react-icons/io5";
 import img1 from "./assets/man.png";
 import img2 from "./assets/images/img2.webp";
 import img3 from "./assets/images/img3.webp";
@@ -253,7 +258,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="triple">
+          <div className="triple-one">
             <div className="img-flex">
               <div className="mini-img">
                 <img src={img2} alt="" />
@@ -292,9 +297,7 @@ function App() {
                 {" "}
                 <div className="img-info">
                   <h3>VPN App UI Design</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet 
-                  </p>
+                  <p>Lorem ipsum dolor sit amet</p>
                 </div>
                 <div className="arrow-icon">
                   <FaArrowTrendUp />
@@ -312,9 +315,7 @@ function App() {
                 {" "}
                 <div className="img-info">
                   <h3>VPN App UI Design</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet 
-                  </p>
+                  <p>Lorem ipsum dolor sit amet</p>
                 </div>
                 <div className="arrow-icon">
                   <FaArrowTrendUp />
@@ -329,9 +330,7 @@ function App() {
                 {" "}
                 <div className="img-info">
                   <h3>VPN App UI Design</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet 
-                  </p>
+                  <p>Lorem ipsum dolor sit amet</p>
                 </div>
                 <div className="arrow-icon">
                   <FaArrowTrendUp />
@@ -346,14 +345,105 @@ function App() {
                 {" "}
                 <div className="img-info">
                   <h3>VPN App UI Design</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet 
-                  </p>
+                  <p>Lorem ipsum dolor sit amet</p>
                 </div>
                 <div className="arrow-icon">
                   <FaArrowTrendUp />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="contact">
+        <div className="contact-title" id="Contact">
+          <h1>
+            <a href="#Contact">Contact Us</a>
+          </h1>
+          <div className="line">
+            <hr />
+          </div>
+          <p>Got a project? Let's talk</p>
+        </div>
+        <div className="contact-us">
+          <div className="contact-info">
+            <div className="contact-title">
+              <p>CONTACT INFO</p>
+              <h1>Get in touch</h1>
+            </div>
+            <div className="connect">
+              <div className="connect-box">
+                <TiMessages />
+                <div>
+                  <p>talk to us</p>
+                  <h4>yoldashaliyev0303@gmail.com</h4>
+                </div>
+              </div>
+              <div className="connect-box">
+                <IoIosPhonePortrait />
+                <div>
+                  <p>Call us</p>
+                  <h4>+998912834479</h4>
+                </div>
+              </div>
+              <div className="connect-box">
+                <IoLocationSharp />
+                <div>
+                  <p>Addres</p>
+                  <h4>Fergana</h4>
+                </div>
+              </div>
+            </div>
+            <div className="follow">
+              <div className="escort">
+                <p>Follow us:</p>
+              </div>
+              <div className="follow-icons">
+                <MdOutlineFacebook />
+                <BsInstagram />
+                <FaTwitter />
+                <FaLinkedinIn />
+                <FaTelegramPlane />
+                <FaYoutube />
+              </div>
+            </div>
+          </div>
+          <div className="contact-form">
+            <div className="four-grid">
+              <form>
+                <label htmlFor="name">First Name</label>
+                <input
+                  size={40}
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                />
+                <label htmlFor="Lname">Last Name</label>
+                <input
+                  size={40}
+                  type="text"
+                  id="Lname"
+                  name="Lname"
+                  placeholder="Your last name"
+                />
+                <label htmlFor="email">Your Working Email</label>
+                <input
+                  size={40}
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Example@gmail.com"
+                />
+                <label htmlFor="phone">Your Phone Number</label>
+                <input
+                  size={40}
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Your phone number"
+                />
+              </form>
             </div>
           </div>
         </div>
